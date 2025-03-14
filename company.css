@@ -33,38 +33,29 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 60px 20px;
+    padding: 50px 20px;
     background: linear-gradient(to right, #1a2b48, #283d64);
 }
 .hero h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 .hero p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     opacity: 0.8;
 }
 
 /* Main Content */
 main {
     padding: 40px 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-inline: 1.5vw;
+    text-align: center;
 }
 
 img {
-    max-width: 33vw;
-    max-height: 40vw;
-    margin-right: 2vw;
-    margin-block: 2vw;
-    border-radius: 10px; 
+    max-inline-size: 25vw;
+    max-block-size:  40vh;
 }
-
-main > div {
-    max-width: 60vw;
-}
-.introduction, .features {
+.company-info, .team, .mission {
     margin-bottom: 40px;
     max-width: 800px;
     margin-left: auto;
@@ -73,22 +64,23 @@ main > div {
     padding: 20px;
     border-radius: 10px;
 }
-.introduction h2, .features h2 {
+.company-info h2, .team h2, .mission h2 {
     font-size: 2em;
     margin-bottom: 20px;
     border-bottom: 2px solid #4da8da;
     display: inline-block;
     padding-bottom: 5px;
 }
-.introduction p, .features ul {
+.company-info p, .mission p {
     font-size: 1.2em;
     line-height: 1.6;
 }
-.features ul {
+.team ul {
     list-style: none;
     padding: 0;
 }
-.features ul li {
+.team ul li {
+    font-size: 1.2em;
     margin: 10px 0;
 }
 
